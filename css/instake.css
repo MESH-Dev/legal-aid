@@ -1,0 +1,345 @@
+#intakeWrapper {
+     /*background-color: #FFF;*/
+    color: #444;
+    font-size: 1em;
+    line-height: 1.3em;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+   
+}
+
+ol > li{
+    padding-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+    section form {
+        height: 100%;
+    }
+
+    section .innerElement {
+        max-width: 980px;
+        padding-top: 10px;
+    }
+
+
+.panel {
+    /*width: 776px;*/
+    border: 1px solid #000000;
+    left: 0px;
+}
+
+    .panel div {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+
+
+.smallinstructions {
+    font-size: 11px;
+}
+
+.required::after {
+    content: "*";
+    color: red;
+    font-weight: bold;
+}
+
+.requiredentry {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.requiredentrylarge {
+    color: #FF0000;
+    font-weight: bold;
+    /*font-size: 22px;*/
+}
+
+.question {
+    position: relative;
+    max-width: 700px;
+    padding: 15px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #ECECEC;
+    clear: both;
+}
+
+    .question .header {
+        margin-bottom: 3px;
+        font-weight: 600;
+    }
+
+    .question .subHeader {
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+
+    .question .input div {
+        position: relative;
+        float: left;
+        margin: 0 20px 5px 0;
+    }
+
+        .question .input div label {
+            display: block;
+            font-size: 12px;
+            color: gray;
+        }
+
+    .question .textboxes {
+        display: block;
+    }
+
+
+.errors span::after {
+    content: " ";
+    display: block;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+    .buttons .previous {
+        float: left;
+    }
+
+    .buttons .next {
+        float: right;
+    }
+
+    .buttons .quit {
+        float: right;
+        margin-top: 10px;
+    }
+
+    .buttons .submit {
+        background-color: green;
+        border-color: darkgreen;
+        color: white;
+        float: right;
+    }
+
+.textboxes {
+    border: 1px solid #808080;
+}
+
+.indented {
+    padding-left: 20px;
+}
+
+.reviewboxes {
+    border: 1px solid #000000;
+}
+
+.steps {
+    padding-left: 3px;
+    color: #b2b2b2;
+}
+
+.currentStep {
+    color: white;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.stepStyle {
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+.wizardStyle {
+    height: 100%;
+}
+
+#Status .header{  
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 20px 0;
+}
+
+#Status .status{
+    margin-top: 15px;
+}
+
+#Status .status  label{
+     font-weight: bold;
+}
+
+
+
+.primary_nav_wrap {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+    background-color: #326446;
+}
+
+    .primary_nav_wrap ul {
+        list-style: none;
+        margin: 0; /* << add this */
+        padding: 0; /* << add this */
+        display: inline-block; /* << add this */
+        vertical-align: bottom;
+    }
+
+        .primary_nav_wrap ul a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            /*text-transform: uppercase;*/
+            /*font-size: 13px;*/
+            /*font-weight: 700;
+            font-size: 12px;
+            line-height: 32px;*/
+            padding: .5em 2em;
+        }
+
+        .primary_nav_wrap ul li {
+            position: relative;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+
+            .primary_nav_wrap ul li.current-menu-item {
+                /*background: #ddd;*/
+            }
+
+            .primary_nav_wrap ul li:hover {
+                /*background: #f6f6f6;*/
+            }
+
+            .primary_nav_wrap ul li a:hover {
+                color: #CFAF6B;
+            }
+
+            .primary_nav_wrap ul li ul li a {
+                /*text-transform: none;*/
+                font-size: 15px;
+            }
+
+                .primary_nav_wrap ul li ul li a:hover {
+                    color: #326446;
+                }
+
+
+
+        .primary_nav_wrap ul ul {
+            text-align: left;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 20px;
+            background: #CFAF6B;
+            padding: 5px 0;
+            border: none;
+            border-width: 0;
+            border-color: #CFAF6B;
+            -webkit-box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.27);
+            -moz-box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.27);
+            box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.27);
+        }
+
+            .primary_nav_wrap ul ul li {
+                float: none;
+                width: 200px;
+            }
+
+            .primary_nav_wrap ul ul a {
+                line-height: 120%;
+                padding: 5px 15px;
+            }
+
+            .primary_nav_wrap ul ul ul {
+                top: 0;
+                left: 100%;
+            }
+
+        .primary_nav_wrap ul li:hover > ul {
+            display: block;
+        }
+
+
+.selected > a {
+    /*color: #CFAF6B !important;*/
+}
+
+.aggreement {
+list-style-type:none; 
+padding: 0;
+margin: 0 0 15px 4px;
+}
+
+.aggreement li {
+    margin-bottom: 5px;
+}
+
+
+/* WIZARD */
+.stepNotCompleted
+{
+    background-color: rgb(153,153,153);
+    width: 15px;
+    border: 1px solid rgb(153,153,153);
+    margin-right: 5px;
+    color: White;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+
+.stepCompleted
+{
+    background-color: #4d4d4d;
+    width: 15px;
+    border: 1px solid #4d4d4d;
+    color: White;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+
+.stepCurrent
+{
+    background-color: #e01122;
+    width: 15px;
+    border: 1px solid #e01122;
+    color: White;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stepBreak
+{
+    width: 3px;
+    background-color: Transparent;
+}
+
+.wizardProgress
+{
+    padding-right: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+
+}
+
+.wizardTitle {
+    font-family: Arial;
+    font-size: 120%;
+    font-weight: bold;
+    color: #ffffff;
+    vertical-align: middle;
+}
